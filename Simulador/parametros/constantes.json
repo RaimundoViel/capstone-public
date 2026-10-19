@@ -1,0 +1,8 @@
+{
+  "flota_total": 140,
+  "minimo_ambulancias_base_activa": 4,
+  "velocidad_base_kmh": 50,
+  "velocidad_minima_kmh": 22,
+  "velocidad_maxima_kmh": 80,
+  "multiplicador_retorno": 1
+}

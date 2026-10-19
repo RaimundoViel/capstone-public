@@ -1,0 +1,6 @@
+prioridad_id,rango,objetivo_respuesta_min,tipo_destino,multiplicador_velocidad,probabilidad
+P1_reanimacion,1,10,hospital,2.1,0.06189748
+P2_emergencia,2,12,hospital,1.6,0.171774926
+P3_urgencia,3,15,hospital,1.15,0.253351949
+P4_moderada,4,18,base,0.9,0.282549919
+P5_baja,5,21,base,0.8,0.230425725

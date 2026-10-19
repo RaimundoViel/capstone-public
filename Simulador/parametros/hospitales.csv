@@ -1,0 +1,11 @@
+hospital_id,x_km,y_km,macrozona_id
+H01,15.05,16.45,Centro
+H02,23.450000000000003,20.3,Oriente
+H03,6.65,27.3,NorPoniente
+H04,29.4,28.7,NorOriente
+H05,4.55,5.6000000000000005,SurPoniente
+H06,21.35,6.65,Sur
+H07,31.5,12.95,Oriente
+H08,12.25,31.15,Norte
+H09,7.7,15.75,Poniente
+H10,25.55,31.85,NorOriente
