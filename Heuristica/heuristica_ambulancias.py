@@ -70,31 +70,15 @@ from Heuristica.conector_simulador import evaluar_en_simulador
 # 0. PARÁMETROS
 # =====================================================================================
 
-PARAMS1 = dict(
+PARAMS = dict(
     n_activas=27,           # maximo de bases activas
     modo_busqueda="simulador",  # "proxy" o "simulador"
-    semillas_busqueda=[1, 2],          # solo modo "simulador" (SAA con N=5)
+    semillas_busqueda=[101, 102, 103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130],          # solo modo "simulador" (SAA con N=5)
     semillas_validacion=list(range(1000, 1030)),  # 30 réplicas, distintas a las de búsqueda
     n_elite=5,              # cuántas mejores soluciones se validan en el simulador
     # simulated annealing
     max_iter=2000000000000,
-    max_seg=25200,
-    paciencia=50000,         # corta si pasan estas iteraciones sin mejorar la mejor
-    T0_factor= 1.0,          # 0 => hill climbing puro
-    enfriamiento=0.9,    # T <- T * enfriamiento en cada iteración
-    k_cercanas=8,           # el swap abre una de las k bases inactivas más cercanas
-    seed=1,
-)
-
-PARAMS = dict(
-    n_activas=27,           # maximo de bases activas
-    modo_busqueda="simulador",  # "proxy" o "simulador"
-    semillas_busqueda=[1, 2],          # solo modo "simulador" (SAA con N=5)
-    semillas_validacion=[1000, 1001],
-    n_elite=2,              # cuántas mejores soluciones se validan en el simulador
-    # simulated annealing
-    max_iter=5,
-    max_seg=300,
+    max_seg=10800,
     paciencia=50000,         # corta si pasan estas iteraciones sin mejorar la mejor
     T0_factor= 1.0,          # 0 => hill climbing puro
     enfriamiento=0.9,    # T <- T * enfriamiento en cada iteración
